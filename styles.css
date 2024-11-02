@@ -29,3 +29,10 @@ body {
     text-transform: uppercase;
     color: #ffc401;
 }
+
+.expense-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 0 10px 0;
+}
