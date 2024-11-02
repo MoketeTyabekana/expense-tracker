@@ -12,3 +12,20 @@ function updateTotal(){
     const total =expense.reduce((sum,expense)=>sum+expense.amount,0);
     totalAmount.textContent=total.toFixed(2);
 }
+
+function addExpense(){
+    const name=itemName.ariaValueMax;
+    const amount =parseFloat(itemPrice.value);
+
+    if (name&&amount){
+        const expense={name,amount};
+        expense.push(expense);
+        updateTotal();
+        renderExpense();
+        saveExpense();
+        itemName.value='';
+        itemPrice.value='';
+    }
+}
+
+addBtn.addEventListener('click',addExpense);
