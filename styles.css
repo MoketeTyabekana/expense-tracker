@@ -10,4 +10,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #fcd6ff;
+}
+
+.container{
+    display: block;
+    background-color: #46004d;
+    color: #fff;
+    padding: 20px;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px #000000a4;
 }
