@@ -52,4 +52,8 @@ font-size: 1em;
 color:#46004d;
 }
 
-
+button:hover{
+    background-color: #fcd6ff;
+    color: #46004d;
+    transition: 0.3s ease-in;
+}
