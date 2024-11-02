@@ -20,6 +20,7 @@ body {
     padding: 20px;
     border-radius: 0.5rem;
     box-shadow: 1px 1px 5px #000000a4;
+    width: 50%;
 }
 
 
@@ -36,3 +37,10 @@ body {
     gap: 15px;
     margin: 0 0 10px 0;
 }
+
+.expense-form input, button{
+    padding: 0.6rem;
+    border-radius: 0.1em;
+    border: none;
+}
+
