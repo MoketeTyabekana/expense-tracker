@@ -79,11 +79,18 @@ li{
     margin: 5px 0 0 0;
 
 }
+
+
 li button{
     background-color: #ffc401;
     border-radius: 0.3em;
     width: 150px;
     font-weight: bold;
+}
+
+li button:hover{
+    color: #fcd6ff;
+    background-color: #46004d;
 }
 
 li{
@@ -95,7 +102,31 @@ li{
 }
 
 
+@media (max-width:900px) {
+    .container{
+        display: block;
+        background-color: #46004d;
+        color: #fff;
+        padding: 20px;
+        border-radius: 0.5rem;
+        box-shadow: 1px 1px 8px #000000a4;
+        width: 90%;
+    }
 
+    
+}
+
+@media (min-width:300px) and (max-width:844px) {
+
+        
+li button{
+    background-color: #ffc401;
+    border-radius: 0.3em;
+    width: 75px;
+    font-weight: bold;
+}
+    
+}
 
 
 
