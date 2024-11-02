@@ -57,5 +57,6 @@ function deleteExpense(){
 }
 
 function  saveExpense(){
-    
+    localStorage.setItem('expenses', JSON.stringify(expenses));
 }
+
