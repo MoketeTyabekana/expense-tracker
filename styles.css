@@ -21,3 +21,11 @@ body {
     border-radius: 0.5rem;
     box-shadow: 1px 1px 5px #000000a4;
 }
+
+
+.container h1{
+    text-align: center;
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+    color: #ffc401;
+}
