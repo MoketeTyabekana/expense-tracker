@@ -19,7 +19,7 @@ function addExpense(){
 
     if (name&&amount){
         const expense={name,amount};
-        expense.push(expense);
+        expenses.push(expense);
         updateTotal();
         renderExpense();
         saveExpense();
@@ -29,3 +29,33 @@ function addExpense(){
 }
 
 addBtn.addEventListener('click',addExpense);
+
+function renderExpenses(){
+    listItems.innerHTML='';
+
+    expenses.forEach((expense,index) => {
+        const li =document.createElement('li');
+        li.textContent='${expense.name}-$${expense.amount.toFixed(2)}';
+
+        const deleteBtn=document.createElement('button');
+        deleteBtn.textContent='Delete';
+
+        deleteBtn.onclick=()=>deleteExpense(index);
+
+        li.appendChild(deleteBtn);
+        listItems.appendChild(li);
+    });
+}
+
+
+
+function deleteExpense(){
+    expenses.splice(index,1);
+    updateTotal();
+    renderExpenses();
+    saveExpense();
+}
+
+function  saveExpense(){
+    
+}

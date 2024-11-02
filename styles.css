@@ -58,6 +58,11 @@ button:hover{
     transition: 0.3s ease-in;
 }
 
-input:focus, button:focus{
-    outline: none;
+input:focus{
+    outline: 0;
 }
+
+button:focus{
+    outline: 0;
+}
+
