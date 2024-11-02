@@ -66,3 +66,37 @@ button:focus{
     outline: 0;
 }
 
+h3{
+    margin: 20px 0 20px 0;
+}
+
+li{
+    list-style: none;
+    padding: 6px;
+    background-color: #f0f0f0;
+    color: #46004d;
+    border-radius: 0.2em;
+    margin: 5px 0 0 0;
+
+}
+li button{
+    background-color: #ffc401;
+    border-radius: 0.3em;
+    width: 150px;
+    font-weight: bold;
+}
+
+li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
