@@ -19,7 +19,7 @@ body {
     color: #fff;
     padding: 20px;
     border-radius: 0.5rem;
-    box-shadow: 1px 1px 5px #000000a4;
+    box-shadow: 1px 1px 8px #000000a4;
     width: 50%;
 }
 
@@ -56,4 +56,8 @@ button:hover{
     background-color: #fcd6ff;
     color: #46004d;
     transition: 0.3s ease-in;
+}
+
+input:focus, button:focus{
+    outline: none;
 }
